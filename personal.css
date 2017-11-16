@@ -29,10 +29,12 @@ animation-iteration-count: infinite;
 }
 
 h4{
-  text-align: center;
+  text-align: justify;
   font-size: 25px;
 }
-
+li{
+  font-size: 17px;
+}
 #container{
   display: flex;
   flex-direction: row;
@@ -64,14 +66,10 @@ h4{
   padding: 1em;
 }
 
-.tech{
-  float: left;
-   width: 50%;
+.column{
+  column-count: 2;
 }
-.non-tech{
-  float: right;
-  width: 50%;
-}
+
 #summary{
   background-color: rgba(117, 190, 218, 0.2);
   border-style: inset;
