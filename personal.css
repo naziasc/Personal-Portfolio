@@ -32,23 +32,28 @@ h4{
   text-align: center;
   font-size: 25px;
 }
+
+#container{
+  display: flex;
+  flex-direction: row;
+  margin: 2em;
+  padding: 1em;
+  justify-content: space-around;
+}
 #about-me{
   background-color: rgba(117, 190, 218, 0.2);
   border-style: inset;
   border-width: medium;
   width: 45%;
-  margin: 2em;
-  padding: 1em;
+
 }
 #projects{
   background-color: rgba(117, 190, 218, 0.2);
   float: right;
+  position: relative;
   border-style: inset;
   border-width: medium;
   width: 45%;
-  margin: 1em;
-  margin-right: 2em;
-  padding: 1em;
 }
 
 #skills{
@@ -59,6 +64,14 @@ h4{
   padding: 1em;
 }
 
+.tech{
+  float: left;
+   width: 50%;
+}
+.non-tech{
+  float: right;
+  width: 50%;
+}
 #summary{
   background-color: rgba(117, 190, 218, 0.2);
   border-style: inset;
@@ -73,7 +86,6 @@ h4{
   margin: auto;
   background: black;
   color: white;
-  position: relative;
 }
 .buttonSend {
     background-color: #F4F4F4;
@@ -96,3 +108,11 @@ h4{
   animation-duration: 4s;
   animation-iteration-count: infinite;
   }
+
+  .img2{
+   position: relative;
+   float: right;
+   -webkit-animation: bounce 3s;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+   }
