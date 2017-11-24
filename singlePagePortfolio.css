@@ -25,7 +25,7 @@ h3 {
   font-weight: 250;
   font-size: 30px;
 -webkit-animation: flash 1.5s both 2.5s;
-animation-iteration-count: infinite;
+animation-iteration-count: 3s;
 }
 
 h4{
